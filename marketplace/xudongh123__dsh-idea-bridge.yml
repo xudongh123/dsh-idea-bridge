@@ -1,0 +1,7 @@
+url: https://github.com/xudongh123/dsh-idea-bridge
+name: xudongh123/dsh-idea-bridge
+category: dev
+description:
+  en: 'Two-way bridge with IntelliJ IDEA: adds an "Open in IDEA" item to DSH file context menus that opens the file at the matching line, and parks a code selection or a whole file from the IDEA editor as a reference chip in a DSH session composer. The IDEA half is a separate jar in the same repository.'
+  zh: '与 IntelliJ IDEA 的双向桥：在 DSH 的文件右键菜单里加「在 IDEA 中打开」，按对应行号打开文件；并在 IDEA 编辑器里把选中的代码或整个文件作为引用 chip 放进 DSH 会话的输入框。IDEA 侧是同仓库的独立 jar。'
+tarball: https://github.com/xudongh123/dsh-idea-bridge/releases/latest/download/dsh-idea-bridge.tgz
