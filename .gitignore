@@ -1,0 +1,9 @@
+# IntelliJ plugin build output
+idea-plugin/build/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*

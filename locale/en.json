@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "IDEA Bridge",
+    "description": "Open a changed file in IntelliJ IDEA from any DSH file menu; right-click a code selection in IDEA to drop it into the DSH composer without sending.",
+    "detail": "README.md"
+  }
+}

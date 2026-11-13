@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "IDEA 联动",
+    "description": "文件菜单一键在 IntelliJ IDEA 中打开改动文件；在 IDEA 里选中代码右键即可放进 DSH 输入框（不直接发送）。",
+    "detail": "README.md"
+  }
+}

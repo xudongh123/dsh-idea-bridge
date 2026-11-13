@@ -1,0 +1,32 @@
+<idea-plugin>
+  <id>com.local.dsh-idea-bridge</id>
+  <name>DSH Bridge</name>
+  <vendor>local</vendor>
+  <description><![CDATA[
+    References code in a running DeepSeek Harness (DSH) session.
+    "Send Selection to DSH" and "Send File to DSH" land in the editor context menu;
+    the target session is the one whose working directory matches the open project.
+  ]]></description>
+  <depends>com.intellij.modules.platform</depends>
+  <idea-version since-build="223"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <notificationGroup id="dsh.bridge" displayType="BALLOON"/>
+  </extensions>
+
+  <actions>
+    <action id="DshBridge.SendSelection"
+            class="dshbridge.SendToDshAction"
+            text="Send Selection to DSH"
+            description="Send the selected code to a running DSH session">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
+    <action id="DshBridge.SendFile"
+            class="dshbridge.SendFileToDshAction"
+            text="Send File to DSH"
+            description="Reference the whole file in a running DSH session">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+    </action>
+  </actions>
+</idea-plugin>
